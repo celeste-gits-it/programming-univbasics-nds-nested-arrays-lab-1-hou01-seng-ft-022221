@@ -32,6 +32,8 @@ def sorted_matrix
   
   array = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
   array 
+  
+  #dont use sort! method learn more 
 end
 
 def matrix_lookup(matrix, row, column)
@@ -47,3 +49,5 @@ def matrix_update(matrix, row, column, new_value)
  matrix[row][column] = new_value
  matrix
 end
+
+
